@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 app.set('supersecret', process.env.SERVER_SECRET);
 
 app.use(cors());
-app.use(morgan('dev'));
+app.use(logger('dev'));
 app.use(express.static('dist'));
 app.get('/api/getUsername', (req, res) => res.send({username: os.userInfo().username}))
 
