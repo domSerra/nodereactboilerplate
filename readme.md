@@ -14,7 +14,7 @@ Things to do when forked and pulled down:
       },
       "homepage": "domain name"
   -src/server/server.js
-    -Server Work & file structure goes here. You don't need the app.get()
+    -Server Work & file structure goes here. You don't need the app.get() or the os package require.
   -src/client/App.js
     -get rid of state, image, everything in render and the componentDidMount. Turn into stateless function rendering components that will be saved in the Containers folder
   -src/client/App.scss
@@ -27,6 +27,9 @@ Things to do when forked and pulled down:
     -change title
     -add favicon link
     -whatever else needs linking
+  -.dotenv
+    -make a .env file in the root for your secret stuff you dont want exposed to the public.
   -run nom i
 
   -GET TO CODIN
+    -Do MVC stuff. Remember to check the files you are working in.
